@@ -146,7 +146,7 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 ------ FUNCION PARA AGREGAR  ------
 
 CREATE OR REPLACE FUNCTION agregarProducto(p_idproducto INTEGER, p_cantidad INTEGER, p_idorden VARCHAR (7))
-    RETURNS VOID 
+    RETURNS p_idproducto, p_cantidad, p_idorden
     AS
     $$
     DECLARE 

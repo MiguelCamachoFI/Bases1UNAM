@@ -1,21 +1,21 @@
 ----------------------------------------
 INSERT INTO empleado (num_empleado, rfc, edad, sueldo, fecha_nacimiento, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia,cod_postal, estado)
-VALUES(1, 'DEML050615MNT', 18, 5000, '2005-06-15','Lorena', 'Delgado', 'Marquez', 'Ignacio Allende', 6, 'Los Heroes', '56530', 'Mexico');
+VALUES(1, 'DEML050615MNT', 18, 5000, '2005-06-15','Lorena', 'Delgado', 'Márquez', 'Ignacio Allende', 6, 'Los Héroes', '56530', 'México');
 -- ddl-end --
 INSERT INTO empleado (num_empleado, rfc, edad, sueldo, fecha_nacimiento, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia,cod_postal, estado)
-VALUES(2, 'FOCN021030MNT', 21, 5000, '2002-10-30','Nayvelin', 'Flores', 'Cueto', '22 de febrero', 82, 'centro de Azcapotzalco', '02000', 'Ciudad de Mexico');
+VALUES(2, 'FOCN021030MNT', 21, 5000, '2002-10-30','Nayvelin', 'Flores', 'Cueto', '22 de febrero', 82, 'centro de Azcapotzalco', '02000', 'Ciudad de México');
 -- ddl-end --
 INSERT INTO empleado (num_empleado, rfc, edad, sueldo, fecha_nacimiento, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia,cod_postal, estado)
-VALUES(3, 'OEGK021203MJC', 21, 5000, '2002-12-03','Kimberly', 'Ortega', 'Godinez', 'Gabino Barrera', 58, 'San Rafael', '06470', 'Ciudad de Mexico');
+VALUES(3, 'OEGK021203MJC', 21, 5000, '2002-12-03','Kimberly', 'Ortega', 'Godinez', 'Gabino Barrera', 58, 'San Rafael', '06470', 'Ciudad de México');
 -- ddl-end --
 INSERT INTO empleado (num_empleado, rfc, edad, sueldo, fecha_nacimiento, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia,cod_postal, estado)
-VALUES(4, 'PAMJ040107MNT', 19, 5000, '2004-01-07','Jimena', 'Palomera', 'Medina', 'Perlavillo', 95, 'Morelos', '06200', 'Ciudad de Mexico');
+VALUES(4, 'PAMJ040107MNT', 19, 5000, '2004-01-07','Jimena', 'Palomera', 'Medina', 'Perlavillo', 95, 'Morelos', '06200', 'Ciudad de México');
 -- ddl-end --
 INSERT INTO empleado (num_empleado, rfc, edad, sueldo, fecha_nacimiento, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia,cod_postal, estado)
-VALUES(5, 'RABF040524MNT', 19, 5000, '2004-05-24','Fatima Abigail', 'Ramos', 'Borrayo', 'Av R Flores Magon', 46, 'Guerrero', '06300', 'Ciudad de Mexico');
+VALUES(5, 'RABF040524MNT', 19, 5000, '2004-05-24','Fatima Abigail', 'Ramos', 'Borrayo', 'Av R Flores Magón', 46, 'Guerrero', '06300', 'Ciudad de México');
 -- ddl-end --
 INSERT INTO empleado (num_empleado, rfc, edad, sueldo, fecha_nacimiento, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia,cod_postal, estado)
-VALUES(6, 'SAUM040703HNT', 19, 5000, '2004-07-03','Marco Antonio', 'Salvatierra', 'Ureña', 'Av R Flores Magon', 80, 'Guerrero', '06300', 'Ciudad de Mexico');
+VALUES(6, 'SAUM040703HNT', 19, 5000, '2004-07-03','Marco Antonio', 'Salvatierra', 'Ureña', 'Av R Flores Magón', 80, 'Guerrero', '06300', 'Ciudad de México');
 -- ddl-end --
 INSERT INTO public.empleado (num_empleado, rfc, edad, sueldo, fecha_nacimiento, foto, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia, cod_postal, estado)
 VALUES (7, 'VILA981018MNT', '26', 5000, '1998-10-18', DEFAULT, 'Alondra Lizeth', 'Virgen', 'López', 'Calle Morelos', 156, 'Centro', '06050', 'Ciudad de México');
@@ -36,13 +36,13 @@ INSERT INTO public.empleado (num_empleado, rfc, edad, sueldo, fecha_nacimiento, 
 VALUES (12, E'SAFE971227HJC', E'25', 5000, E'1997-12-27', DEFAULT, E'Emmanuel', E'Sánchez', E'Figueroa', 'Periférico Sur', 450, 'Pedregal', '04500', 'Ciudad de México');
 -- ddl-end --
 INSERT INTO public.empleado (num_empleado, rfc, edad, sueldo, fecha_nacimiento, foto, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia, cod_postal, estado)
-VALUES (13, E'ZAFJ980707HNT', E'25', 5000, E'1998-07-07', DEFAULT, E'Jorge Alonso', E'Zamudio', E'Figueora', 'Eje 6 Sur', 100, 'Iztapalapa', '09000', 'Ciudad de México');
+VALUES (13, E'ZAFJ980707HNT', E'25', 5000, E'1998-07-07', DEFAULT, E'Jorge Alonso', E'Zamudio', E'Figueroa', 'Eje 6 Sur', 100, 'Iztapalapa', '09000', 'Ciudad de México');
 -- ddl-end --
 INSERT INTO public.empleado (num_empleado, rfc, edad, sueldo, fecha_nacimiento, foto, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia, cod_postal, estado)
 VALUES (14, E'CUML960512MNT', E'27', 5000, E'1996-05-12', DEFAULT, E'Lesli Araidi', E'Cueto', E'Magallanes', 'Insurgentes Sur', 1800, 'Coyoacán', '04000', 'Ciudad de México');
 -- ddl-end --
 INSERT INTO public.empleado (num_empleado, rfc, edad, sueldo, fecha_nacimiento, foto, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia, cod_postal, estado)
-VALUES (15, E'CUUC950201MNT', E'28', 5000, E'1995-02-01', DEFAULT, E'Carime Alexandra', E'Cueto', E'Ureña', 'Ejer Central', 300, 'Narvarte', 03020, 'Ciudad de México');
+VALUES (15, E'CUUC950201MNT', E'28', 5000, E'1995-02-01', DEFAULT, E'Carime Alexandra', E'Cueto', E'Ureña', 'Eje Central', 300, 'Narvarte', 03020, 'Ciudad de México');
 -- ddl-end --
 
 ------ INSERT TELEFONO ------
@@ -115,10 +115,10 @@ INSERT INTO public.dependiente (curp, nombre, ap_pat, ap_mat, parentesco, num_em
 VALUES (E'JAGY03032MNTRRSA9', E'Yesenia Guadalupe', E'Jauregui', E'García', 'Prima materna', 8);
 -- ddl-end --
 INSERT INTO public.dependiente (curp, nombre, ap_pat, ap_mat, parentesco, num_empleado_empleado)
-VALUES (E'JULC051028MNTRPRA1', E'Carmen Catalina', E'Juaréz', E'López', 'Prima materna', 7);
+VALUES (E'JULC051028MNTRPRA1', E'Carmen Catalina', E'Juárez', E'López', 'Prima materna', 7);
 -- ddl-end --
 INSERT INTO public.dependiente (curp, nombre, ap_pat, ap_mat, parentesco, num_empleado_empleado)
-VALUES (E'JULD051028MNTRPLA7', E'Delia Nereida', E'Juaréz', E'López', 'Prima materna', 7);
+VALUES (E'JULD051028MNTRPLA7', E'Delia Nereida', E'Juárez', E'López', 'Prima materna', 7);
 -- ddl-end --
 INSERT INTO public.dependiente (curp, nombre, ap_pat, ap_mat, parentesco, num_empleado_empleado)
 VALUES (E'OEPE060316MNTRXVA2', E'Evelyn', E'Ortega', E'Peña', 'Prima paterna', 10);
@@ -179,7 +179,7 @@ INSERT INTO cocinero(especialidad, num_empleado_empleado) VALUES ('Bebidas', 3);
 
 ------ INSERT CLIENTE ------
 INSERT INTO cliente(rfc, email, fecha_nacimiento, razon_social, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia, cod_postal, estado)
-VALUES ('ZAGA020422MNT', 'cliente1@dominio.com', '2002-04-22', 'comer','Angela', 'Zaragoza', 'Garcia', 'Mixtecas', 7, 'Coyoacan', '04300', 'Ciudad de Mexico');
+VALUES ('ZAGA020422MNT', 'cliente1@dominio.com', '2002-04-22', 'comer','Angela', 'Zaragoza', 'Garcia', 'Mixtecas', 7, 'Coyoacán', '04300', 'Ciudad de México');
 INSERT INTO public.cliente (rfc, email, fecha_nacimiento, razon_social, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia, cod_postal, estado)
 VALUES (E'PAQF911019MJC', E'maria.patino@gmail.com', E'1991-10-19', E'María Fernanda Patiño Quintero', E'María Fernanda', E'Patiño', E'Quintero', 'Calle Rosas', 23, 'Coyoacán', '04100', 'Ciudad de México');
 -- ddl-end --
@@ -205,13 +205,13 @@ INSERT INTO public.cliente (rfc, email, fecha_nacimiento, razon_social, nombre, 
 VALUES (E'RARA920723MNT', E'andrea.ramirez@gmail.com', E'1992-07-23', E'Andrea Yamileth Ramírez Ramos', E'Andrea Yamileth', E'Ramírez', E'Ramos', 'Avenida Reforma', 300, 'Coyoacán', '04200', 'Ciudad de México');
 -- ddl-end --
 INSERT INTO public.cliente (rfc, email, fecha_nacimiento, razon_social, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia, cod_postal, estado)
-VALUES (E'RAMM930708MNT', E'marcelina.ramos@gmail.com', E'1993-07-08', E'Marcelina Ramos Marín', E'Marcelina', E'Ramos', E'Marín', 'Avenidad Universidad', 500, 'Ecatepec', '55120', 'Estado de México');
+VALUES (E'RAMM930708MNT', E'marcelina.ramos@gmail.com', E'1993-07-08', E'Marcelina Ramos Marín', E'Marcelina', E'Ramos', E'Marín', 'Avenida Universidad', 500, 'Ecatepec', '55120', 'Estado de México');
 -- ddl-end --
 INSERT INTO public.cliente (rfc, email, fecha_nacimiento, razon_social, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia, cod_postal, estado)
 VALUES (E'RIBN940228MNT', E'ninel.rivera@gmail.com', E'1994-02-28', E'Ninel Ruth Rivera Borrayo', E'Ninel Ruth', E'Rivera', E'Borrayo', 'Calle Naranjos', 56, 'Iztapalapa', '09500', 'Ciudad de México');
 -- ddl-end --
 INSERT INTO public.cliente (rfc, email, fecha_nacimiento, razon_social, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia, cod_postal, estado)
-VALUES (E'ROCM950625MNT', E'marisol.robles@gmail.com', E'1995-06-25', E'Marisol Jazmin Robles Cueto', E'Marisol Jazmin', E'Robles', E'Cueto', 'Calle Girasoles', 70, 'Coyoacán', '04200', 'Ciudad de México');
+VALUES (E'ROCM950625MNT', E'marisol.robles@gmail.com', E'1995-06-25', E'Marisol Jazmín Robles Cueto', E'Marisol Jazmin', E'Robles', E'Cueto', 'Calle Girasoles', 70, 'Coyoacán', '04200', 'Ciudad de México');
 -- ddl-end --
 INSERT INTO public.cliente (rfc, email, fecha_nacimiento, razon_social, nombre, ap_pat, ap_mat, calle, numero_domicilio, colonia, cod_postal, estado)
 VALUES (E'ROUV960129MNT', E'valeria.robles@gmail.com', E'1996-01-29', E'Valeria Robles Ureña', E'Valeria', E'Robles', E'Ureña', 'Avenida Morelos', 102, 'Coacalco', '55717', 'Estado de México');
@@ -237,10 +237,10 @@ INSERT INTO categoria (id_categoria, nombre_categoria, descrip_categoria)
 VALUES (3, 'Comidas', 'Platillos para terminar con el hambre');
 -- ddl-end --
 INSERT INTO categoria (id_categoria, nombre_categoria, descrip_categoria)
-VALUES (4, 'Cenas', 'Platlillos adecuados para terminar el dia');
+VALUES (4, 'Cenas', 'Platlillos adecuados para terminar el día');
 -- ddl-end --
 INSERT INTO categoria (id_categoria, nombre_categoria, descrip_categoria)
-VALUES (5, 'Comida Mexicana', 'Platillos con la tradicion que nos une');
+VALUES (5, 'Comida Mexicana', 'Platillos con la tradición que nos une');
 -- ddl-end --
 INSERT INTO categoria (id_categoria, nombre_categoria, descrip_categoria)
 VALUES (6, 'Postres', 'Platillos para endulzar el dia');
